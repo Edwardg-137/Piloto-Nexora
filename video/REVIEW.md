@@ -16,4 +16,4 @@ Elegida la historia «¿Por dónde empiezo?» para una primera visita. Se conser
 Las capturas del video sirven de demostración, no de tutorial de cada control. En teléfono, los títulos transmiten el recorrido; el texto pequeño de la interfaz no se pretende leer completo. El plano más débil es el catálogo de cartas por su densidad: en otra edición podría sustituirse por una interacción de duelo grabada. La pregunta conserva un material visual anterior al refinamiento global; está documentado como captura real de referencia. No se verificó un teléfono físico ni Safari. No se han publicado la landing ni una nueva versión de la app.
 
 ## Estado
-Video final renderizado e integrado. La revisión independiente de la landing se registra en ../VERIFICACION.md al cerrar la tarea.
+Video final renderizado e integrado. La landing y este MP4 ya están publicados en GitHub Pages; no se volvió a renderizar el video para corregir el despliegue. La revisión independiente y el ensayo remoto se registran en ../VERIFICACION.md.

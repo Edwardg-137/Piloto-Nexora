@@ -25,3 +25,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 ## Riesgos y límites
 La app local incorpora cambios aún no publicados. Las capturas se identifican como versión de prueba. La configuración de Pages y el enlace público final quedan para el repositorio que creará Jorge. No cargar contenido privado ni credenciales en la página.
+
+## Publicación y corrección del despliegue
+Jorge creó Edwardg-137/Piloto-Nexora y autorizó conectar la carpeta y corregir el despliegue. Pages usa GitHub Actions; se conserva el workflow propio que publica site/. Al investigar el primer fallo, el flujo automático de Jekyll había desplegado la raíz sin index.html. Se ejecutó el workflow correcto y se verificaron la URL pública, sus recursos y la reproducción del video. Resultado: https://edwardg-137.github.io/Piloto-Nexora/. Detalles en VERIFICACION.md.

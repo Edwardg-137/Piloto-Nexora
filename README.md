@@ -22,8 +22,12 @@ Abrir **http://127.0.0.1:4173**. El video usa controles nativos y se descarga so
 
 Esta carpeta tiene su propio Git, rama `main` y remoto [Piloto-Nexora](https://github.com/Edwardg-137/Piloto-Nexora). Está excluida del repositorio principal de Nexora.
 
-1. En **Settings → Pages → Build and deployment → Source**, elegir **GitHub Actions**.
-2. En **Actions**, ejecutar **Publicar presentación de Nexora**. Después, los cambios de `site/` en `main` se publican automáticamente.
+**Landing publicada:** https://edwardg-137.github.io/Piloto-Nexora/
+
+Pages está habilitado con **GitHub Actions**. El workflow de esta carpeta publica `site/`; no usar el flujo automático de Jekyll desde la raíz del repositorio, que no contiene la landing.
+
+1. Si se vuelve a configurar Pages, en **Settings → Pages → Build and deployment → Source**, elegir **GitHub Actions**.
+2. Para publicar manualmente, en **Actions**, ejecutar **Publicar presentación de Nexora**. Los cambios de `site/` en `main` se publican automáticamente.
 
 El workflow publica **solo `site/`**. La composición, herramientas y documentos se conservan en el repositorio y quedan fuera del sitio. Las rutas relativas funcionan también en `https://usuario.github.io/repositorio/`; no se necesita dominio propio ni build.
 
