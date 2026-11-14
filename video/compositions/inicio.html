@@ -1,0 +1,12 @@
+<template>
+  <style>#root{position:absolute;inset:0;background:#e7e9e3}.start-title{left:150px;top:310px;max-width:780px}.start-sub{left:155px;top:570px;color:#584178}.start-ui{left:1110px;top:90px;width:490px;height:900px;background:#1a1e1f}.start-note{left:155px;top:925px}</style>
+  <div id="root" data-composition-id="inicio">
+    <div id="inicio-shot" class="clip" data-start="0" data-duration="6">
+      <h2 class="title start-title" id="inicio-title">Elige<br>tu inicio.</h2>
+      <p class="sub start-sub" id="inicio-sub" data-hold>Bases o nivelación</p>
+      <div class="stage start-ui" id="inicio-stage" data-layout-allow-overflow><img src="assets/inicio.webp" alt="Elegir conceptos básicos o encontrar el punto de partida"></div>
+      <p class="note start-note">Puedes empezar por lo básico.</p>
+    </div>
+  </div>
+  <script>const tl=gsap.timeline({paused:true});tl.fromTo('#inicio-stage',{x:130},{x:0,duration:.7,ease:'power3.out'},0);tl.fromTo('#inicio-sub',{opacity:0},{opacity:1,duration:.3},2);window.__timelines.inicio=tl;</script>
+</template>

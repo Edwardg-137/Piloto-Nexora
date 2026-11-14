@@ -1,0 +1,11 @@
+<template>
+  <style>#root{position:absolute;inset:0;background:#e7e9e3}.practice-title{left:150px;top:110px;font-size:96px;max-width:1600px}.practice-sub{left:155px;top:260px;max-width:1500px;color:#584178}.practice-stage{left:270px;top:390px;width:1380px;height:570px;background:#f1f2ec}.practice-stage img{width:1380px}</style>
+  <div id="root" data-composition-id="practica">
+    <div id="practica-shot" class="clip" data-start="0" data-duration="6">
+      <h2 class="title practice-title">Practica. Vuelve.</h2>
+      <p class="sub practice-sub" id="practice-sub" data-hold>Comprueba lo aprendido.</p>
+      <div class="stage practice-stage" id="practice-stage" data-layout-allow-overflow><img src="assets/practica.webp" alt="Práctica: sesión recomendada y catálogo de temas de fracciones"></div>
+    </div>
+  </div>
+  <script>const tl=gsap.timeline({paused:true});tl.fromTo('#practice-stage',{y:90},{y:0,duration:.7,ease:'power3.out'},0);tl.fromTo('#practice-sub',{opacity:0},{opacity:1,duration:.3},2);window.__timelines.practica=tl;</script>
+</template>

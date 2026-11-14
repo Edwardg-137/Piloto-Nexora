@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T03:01:39.765Z",
+  "title": "Design System: Nexora · Presentación del piloto",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Violeta",
+        "tonalRamp": [
+          "oklch(15.00% 0.09176 301.93)",
+          "oklch(26.43% 0.09176 301.93)",
+          "oklch(37.86% 0.09176 301.93)",
+          "oklch(49.29% 0.09176 301.93)",
+          "oklch(60.71% 0.09176 301.93)",
+          "oklch(72.14% 0.09176 301.93)",
+          "oklch(83.57% 0.09176 301.93)",
+          "oklch(95.00% 0.09176 301.93)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Violeta profundo",
+        "tonalRamp": [
+          "oklch(15.00% 0.08017 303.76)",
+          "oklch(26.43% 0.08017 303.76)",
+          "oklch(37.86% 0.08017 303.76)",
+          "oklch(49.29% 0.08017 303.76)",
+          "oklch(60.71% 0.08017 303.76)",
+          "oklch(72.14% 0.08017 303.76)",
+          "oklch(83.57% 0.08017 303.76)",
+          "oklch(95.00% 0.08017 303.76)"
+        ]
+      },
+      "primary-light": {
+        "role": "primary",
+        "displayName": "Violeta claro",
+        "tonalRamp": [
+          "oklch(15.00% 0.08132 298.22)",
+          "oklch(26.43% 0.08132 298.22)",
+          "oklch(37.86% 0.08132 298.22)",
+          "oklch(49.29% 0.08132 298.22)",
+          "oklch(60.71% 0.08132 298.22)",
+          "oklch(72.14% 0.08132 298.22)",
+          "oklch(83.57% 0.08132 298.22)",
+          "oklch(95.00% 0.08132 298.22)"
+        ]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Mineral",
+        "tonalRamp": [
+          "oklch(15.00% 0.00828 121.64)",
+          "oklch(26.43% 0.00828 121.64)",
+          "oklch(37.86% 0.00828 121.64)",
+          "oklch(49.29% 0.00828 121.64)",
+          "oklch(60.71% 0.00828 121.64)",
+          "oklch(72.14% 0.00828 121.64)",
+          "oklch(83.57% 0.00828 121.64)",
+          "oklch(95.00% 0.00828 121.64)"
+        ]
+      },
+      "neutral-ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "tonalRamp": [
+          "oklch(15.00% 0.01224 160.49)",
+          "oklch(26.43% 0.01224 160.49)",
+          "oklch(37.86% 0.01224 160.49)",
+          "oklch(49.29% 0.01224 160.49)",
+          "oklch(60.71% 0.01224 160.49)",
+          "oklch(72.14% 0.01224 160.49)",
+          "oklch(83.57% 0.01224 160.49)",
+          "oklch(95.00% 0.01224 160.49)"
+        ]
+      },
+      "neutral-muted": {
+        "role": "neutral",
+        "displayName": "Tinta secundaria",
+        "tonalRamp": [
+          "oklch(15.00% 0.01987 156.32)",
+          "oklch(26.43% 0.01987 156.32)",
+          "oklch(37.86% 0.01987 156.32)",
+          "oklch(49.29% 0.01987 156.32)",
+          "oklch(60.71% 0.01987 156.32)",
+          "oklch(72.14% 0.01987 156.32)",
+          "oklch(83.57% 0.01987 156.32)",
+          "oklch(95.00% 0.01987 156.32)"
+        ]
+      },
+      "neutral-dark": {
+        "role": "neutral",
+        "displayName": "Grafito",
+        "tonalRamp": [
+          "oklch(15.00% 0.00371 229.00)",
+          "oklch(26.43% 0.00371 229.00)",
+          "oklch(37.86% 0.00371 229.00)",
+          "oklch(49.29% 0.00371 229.00)",
+          "oklch(60.71% 0.00371 229.00)",
+          "oklch(72.14% 0.00371 229.00)",
+          "oklch(83.57% 0.00371 229.00)",
+          "oklch(95.00% 0.00371 229.00)"
+        ]
+      },
+      "neutral-paper": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "tonalRamp": [
+          "oklch(15.00% 0.00801 114.22)",
+          "oklch(26.43% 0.00801 114.22)",
+          "oklch(37.86% 0.00801 114.22)",
+          "oklch(49.29% 0.00801 114.22)",
+          "oklch(60.71% 0.00801 114.22)",
+          "oklch(72.14% 0.00801 114.22)",
+          "oklch(83.57% 0.00801 114.22)",
+          "oklch(95.00% 0.00801 114.22)"
+        ]
+      },
+      "neutral-line": {
+        "role": "neutral",
+        "displayName": "Línea",
+        "tonalRamp": [
+          "oklch(15.00% 0.01518 148.71)",
+          "oklch(26.43% 0.01518 148.71)",
+          "oklch(37.86% 0.01518 148.71)",
+          "oklch(49.29% 0.01518 148.71)",
+          "oklch(60.71% 0.01518 148.71)",
+          "oklch(72.14% 0.01518 148.71)",
+          "oklch(83.57% 0.01518 148.71)",
+          "oklch(95.00% 0.01518 148.71)"
+        ]
+      },
+      "neutral-on-dark": {
+        "role": "neutral",
+        "displayName": "Texto sobre grafito",
+        "tonalRamp": [
+          "oklch(15.00% 0.00952 150.66)",
+          "oklch(26.43% 0.00952 150.66)",
+          "oklch(37.86% 0.00952 150.66)",
+          "oklch(49.29% 0.00952 150.66)",
+          "oklch(60.71% 0.00952 150.66)",
+          "oklch(72.14% 0.00952 150.66)",
+          "oklch(83.57% 0.00952 150.66)",
+          "oklch(95.00% 0.00952 150.66)"
+        ]
+      },
+      "neutral-white": {
+        "role": "neutral",
+        "displayName": "Blanco",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      }
+    },
+    "tonalRampSource": "Escalas auxiliares sintetizadas en OKLCH para el panel, con ocho pasos de luminosidad y matiz/croma del color original. No son tokens aplicados por site/styles.css.",
+    "typographyMeta": {
+      "display": {
+        "displayName": "Título inicial",
+        "purpose": "Título principal con frase final en violeta; escala responsive documentada en Layout y Typography."
+      },
+      "headline": {
+        "displayName": "Título de sección",
+        "purpose": "Jerarquía de las secciones; video e invitación ajustan la escala al contexto."
+      },
+      "title": {
+        "displayName": "Título de paso",
+        "purpose": "Encabeza cada paso de la lista ordenada."
+      },
+      "body": {
+        "displayName": "Lectura",
+        "purpose": "Texto general con Archivo autohospedada."
+      },
+      "label": {
+        "displayName": "Acción principal",
+        "purpose": "Texto del enlace principal con apariencia de botón."
+      }
+    },
+    "shadows": [
+      {
+        "name": "button-relief",
+        "value": "inset 0 1px 0 #ffffff36, 0 3px 7px #242b2715",
+        "purpose": "Relieve discreto de la acción principal."
+      },
+      {
+        "name": "product-frame",
+        "value": "0 20px 42px #242b2726, 0 3px 5px #242b2724",
+        "purpose": "Elevar el marco de la captura sobre el mineral en escritorio."
+      },
+      {
+        "name": "product-frame-mobile",
+        "value": "0 12px 24px #242b2726",
+        "purpose": "Sombra del marco hasta 720px."
+      },
+      {
+        "name": "playing-card",
+        "value": "0 14px 20px #0005",
+        "purpose": "Profundidad de las dos cartas superpuestas."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "background .16s, color .16s, transform .16s",
+        "purpose": "Respuesta al hover y pulsación; easing CSS por defecto (ease)."
+      },
+      {
+        "name": "button-active",
+        "value": "translateY(1px)",
+        "purpose": "Desplazamiento del enlace principal mientras se pulsa."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "Desplazamiento por anclas; auto con prefers-reduced-motion: reduce."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition: none !important",
+        "purpose": "Con prefers-reduced-motion: reduce se eliminan transiciones en elementos y pseudoelementos. El video conserva control manual."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1500px",
+        "purpose": "Más aire en la introducción."
+      },
+      {
+        "name": "compact-max",
+        "value": "1050px",
+        "purpose": "Márgenes de 32px y reducción de separaciones."
+      },
+      {
+        "name": "mobile-max",
+        "value": "720px",
+        "purpose": "Una columna, márgenes de 20px y navegación del encabezado oculta."
+      }
+    ],
+    "focus": {
+      "width": "3px",
+      "offset": "6px",
+      "lightSurface": "var(--purple)",
+      "darkSurface": "var(--light-purple)"
+    },
+    "fontAsset": {
+      "path": "site/assets/fonts/archivo-latin.woff2",
+      "weightRange": "100 900",
+      "fontDisplay": "swap",
+      "preloaded": true
+    }
+  },
+  "components": [
+    {
+      "name": "Acción principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enlace de entrada al piloto, con relieve discreto y respuesta al pulsar.",
+      "html": "<a class=\"ds-button\" href=\"https://nexora-piloto-seven.vercel.app/registro\">Entrar al piloto <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:54px;padding:15px 22px;background:var(--purple,#584178);color:#fff;border-radius:4px;font-family:Archivo,Arial,sans-serif;font-size:14px;font-weight:650;line-height:1.55;text-decoration:none;box-shadow:inset 0 1px 0 #ffffff36,0 3px 7px #242b2715;transition:background .16s,color .16s,transform .16s;touch-action:manipulation}.ds-button:hover{background:#483361}.ds-button:focus-visible{outline:3px solid var(--purple,#584178);outline-offset:6px}.ds-button:active{transform:translateY(1px)}@media(max-width:720px){.ds-button{padding-inline:20px}}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Enlace de texto",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Acción auxiliar subrayada hacia la demostración.",
+      "html": "<a class=\"ds-text-link\" href=\"#demo\">Ver cómo funciona <span aria-hidden=\"true\">↓</span></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:12px;min-height:48px;color:var(--ink,#242b27);font-family:Archivo,Arial,sans-serif;font-size:14px;font-weight:550;line-height:1.55;text-underline-offset:5px}.ds-text-link:hover{text-decoration-thickness:2px}.ds-text-link:focus-visible{outline:3px solid var(--purple,#584178);outline-offset:6px}@media(max-width:720px){.ds-text-link{font-size:13px}}"
+    },
+    {
+      "name": "Navegación por anclas",
+      "kind": "nav",
+      "description": "Los dos enlaces del encabezado de escritorio.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Principal\"><a href=\"#demo\">Ver demo</a><a href=\"#como\">Cómo empezar</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;color:var(--ink,#242b27);font-family:Archivo,Arial,sans-serif;font-size:14px;line-height:1.55}.ds-nav a{display:flex;align-items:center;min-height:44px;color:inherit;text-decoration:none}.ds-nav a:hover{color:var(--purple,#584178)}.ds-nav a:focus-visible{outline:3px solid var(--purple,#584178);outline-offset:6px}@media(max-width:720px){.ds-nav{display:none}}"
+    },
+    {
+      "name": "Etiqueta de piloto",
+      "kind": "chip",
+      "description": "Indicador informativo del encabezado, sin interacción.",
+      "html": "<span class=\"ds-pilot\"><span aria-hidden=\"true\"></span>Piloto cerrado</span>",
+      "css": ".ds-pilot{display:flex;align-items:center;gap:9px;color:var(--ink,#242b27);font-family:Archivo,Arial,sans-serif;font-size:12px;font-weight:550;line-height:1.55;white-space:nowrap}.ds-pilot>span{width:7px;height:7px;background:var(--purple,#584178);border-radius:50%}@media(max-width:720px){.ds-pilot{font-size:11px;gap:6px}}"
+    },
+    {
+      "name": "Transcripción nativa",
+      "kind": "custom",
+      "description": "details/summary sobre la banda oscura; lectura alternativa del video.",
+      "html": "<details class=\"ds-transcript\"><summary>Leer el recorrido</summary><p>¿Por dónde empiezo? Elige tu inicio: conceptos básicos o nivelación. Hoy te propone una sesión. Lee, responde y consulta las ayudas. Practica lo aprendido y vuelve para comprobarlo. Consulta tu recorrido en Mapa. En Insolitus puedes jugar duelos de cartas contra un bot. Entra al piloto, prueba Nexora y cuéntanos cómo te fue.</p></details>",
+      "css": ".ds-transcript{max-width:72ch;margin-top:4px;background:var(--dark,#151718);color:#c1c7c2;font-family:Archivo,Arial,sans-serif;font-size:13px;line-height:1.55}.ds-transcript summary{cursor:pointer;width:fit-content;min-height:44px;align-content:center}.ds-transcript summary:focus-visible{outline:3px solid var(--light-purple,#c5b4ed);outline-offset:6px}.ds-transcript p{margin:8px 0 0;line-height:1.75}"
+    },
+    {
+      "name": "Pasos numerados",
+      "kind": "custom",
+      "description": "Lista con números tabulares violetas y separadores finos.",
+      "html": "<ol class=\"ds-steps\"><li><span class=\"ds-number\" aria-hidden=\"true\">1</span><div><h3>Elige tu inicio</h3><p>Empieza por las bases o haz la nivelación.</p></div></li><li><span class=\"ds-number\" aria-hidden=\"true\">2</span><div><h3>Sigue tu sesión</h3><p>Abre Hoy. Lee, responde y usa las ayudas.</p></div></li><li><span class=\"ds-number\" aria-hidden=\"true\">3</span><div><h3>Practica y vuelve</h3><p>Aplica lo aprendido y compruébalo más adelante.</p></div></li></ol>",
+      "css": ".ds-steps{list-style:none;margin:0;padding:0;color:var(--ink,#242b27);font-family:Archivo,Arial,sans-serif;line-height:1.55}.ds-steps li{display:flex;gap:28px;padding:26px 0;border-bottom:1px solid var(--line,#a4ada5)}.ds-steps li:first-child{padding-top:0}.ds-number{font-size:15px;color:var(--purple,#584178);padding-top:5px;font-variant-numeric:tabular-nums}.ds-steps h3{margin:0;font-size:25px;font-weight:600;letter-spacing:-.02em;line-height:1.08;text-wrap:balance}.ds-steps p{margin:10px 0 0;font-size:15px;color:var(--muted,#4b574f)}@media(max-width:720px){.ds-steps li{gap:24px;padding-block:23px}.ds-steps h3{font-size:24px}.ds-steps p{font-size:14px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Grafito científico heredado",
+    "overview": "La presentación conserva la marca Nexora: una base mineral clara, superficies de grafito y violeta para orientar la acción. Archivo une títulos, lectura y controles; la interfaz real aporta la evidencia visual. El isotipo se conserva como recurso de marca, sin reinterpretarlo.\n\nLa composición es breve y espaciosa para un primer contacto desde el teléfono. La captura inicial y el video ocupan el protagonismo; las explicaciones tienen jerarquía tipográfica y separadores finos. El movimiento se limita al desplazamiento por anclas y a estados de los enlaces principales.",
+    "keyCharacteristics": [
+      "Base mineral con contraste de grafito.",
+      "Violeta concentrado en acciones y orientación.",
+      "Archivo autohospedada en todos los niveles.",
+      "Capturas reales, bordes discretos y controles nativos."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** conservar el isotipo Nexora, Archivo autohospedada y la paleta extraída del sitio.",
+      "**Do** mantener el orden de lectura al pasar las composiciones a una columna en móvil.",
+      "**Do** conservar foco visible, controles nativos, transcripción y reproducción voluntaria del video.",
+      "**Do** acompañar las capturas reales con su identificación de interfaz de prueba."
+    ],
+    "donts": [
+      "**Don't** sustituir las capturas por resultados, cifras o testimonios inventados.",
+      "**Don't** cargar la fuente desde un proveedor externo ni introducir una nueva identidad visual.",
+      "**Don't** convertir la demostración en reproducción automática ni añadir movimiento obligatorio."
+    ]
+  }
+}

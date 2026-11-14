@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e7e9e3">
+  <meta name="description" content="Matemáticas desde tu punto de partida. Conoce Nexora, mira cómo se usa y participa en el piloto cerrado.">
+  <title>Nexora · Matemáticas desde tu punto</title>
+  <link rel="icon" href="assets/nexora.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Nexora, inicio"><img src="assets/nexora.svg" width="40" height="40" alt="">NEXORA</a>
+    <nav aria-label="Principal"><a href="#demo">Ver demo</a><a href="#como">Cómo empezar</a></nav>
+    <span class="pilot"><span aria-hidden="true"></span>Piloto cerrado</span>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <h1 id="titulo">Matemáticas,<br>desde <span>tu punto.</span></h1>
+        <p>Nexora te propone qué estudiar según lo que vas demostrando.</p>
+        <div class="actions"><a class="button primary" href="https://nexora-piloto-seven.vercel.app/registro">Entrar al piloto <span aria-hidden="true">↗</span></a><a class="text-link" href="#demo">Ver cómo funciona <span aria-hidden="true">↓</span></a></div>
+        <p class="small hero-note">¿Recibiste la invitación? Empieza aquí.</p>
+      </div>
+      <figure class="hero-screen">
+        <div class="screen-top"><span>Tu próxima sesión</span><span class="screen-light" aria-hidden="true"></span></div>
+        <img src="assets/hoy.webp" alt="Pantalla Hoy: una sesión de fracciones y un mapa de competencias conectadas." width="1132" height="708" fetchpriority="high">
+        <figcaption>Interfaz de prueba · datos de ejemplo</figcaption>
+      </figure>
+    </section>
+    <section class="demo" id="demo" aria-labelledby="demo-title">
+      <div class="wrap">
+        <div class="section-heading"><h2 id="demo-title">Así se usa Nexora.</h2><span class="small">48 segundos · con música</span></div>
+        <video controls playsinline preload="none" poster="assets/poster.webp" width="1920" height="1080" aria-label="Demostración de Nexora: punto de partida, sesión de estudio, práctica y cartas">
+          <source src="assets/nexora-demo.mp4" type="video/mp4">
+          <track kind="captions" src="assets/demo.vtt" srclang="es" label="Textos en español">
+          Tu navegador no reproduce este video. <a href="assets/nexora-demo.mp4">Descargar la demostración</a>.
+        </video>
+        <div class="video-foot"><span class="small">Pantallas de la versión de prueba. Pueden cambiar durante el piloto.</span><a href="assets/nexora-demo.mp4" download>Descargar video <span aria-hidden="true">↓</span></a></div>
+        <details class="transcript"><summary>Leer el recorrido</summary><p>¿Por dónde empiezo? Elige tu inicio: conceptos básicos o nivelación. Hoy te propone una sesión. Lee, responde y consulta las ayudas. Practica lo aprendido y vuelve para comprobarlo. Consulta tu recorrido en Mapa. En Insolitus puedes jugar duelos de cartas contra un bot. Entra al piloto, prueba Nexora y cuéntanos cómo te fue.</p></details>
+      </div>
+    </section>
+    <section class="how wrap" id="como" aria-labelledby="how-title">
+      <div class="how-intro"><h2 id="how-title">Tu primera sesión,<br>paso a paso.</h2><p>No necesitas saberlo todo para empezar.</p><a class="text-link" href="https://nexora-piloto-seven.vercel.app/registro">Crear mi cuenta <span aria-hidden="true">↗</span></a></div>
+      <ol class="steps">
+        <li><span class="step-number" aria-hidden="true">1</span><div><h3>Elige tu inicio</h3><p>Empieza por las bases o haz la nivelación.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">2</span><div><h3>Sigue tu sesión</h3><p>Abre Hoy. Lee, responde y usa las ayudas.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">3</span><div><h3>Practica y vuelve</h3><p>Aplica lo aprendido y compruébalo más adelante.</p></div></li>
+      </ol>
+    </section>
+    <section class="play wrap" aria-labelledby="play-title">
+      <div class="card-art" aria-hidden="true"><img class="card-one" src="assets/carta-vinculo.webp" alt="" width="512" height="768" loading="lazy"><img class="card-two" src="assets/carta-prisma.webp" alt="" width="512" height="768" loading="lazy"></div>
+      <div class="play-copy"><h2 id="play-title">También hay <br>cartas.</h2><p>Insolitus: duelos contra un bot, dentro de Nexora.</p><p class="small">El juego acompaña el estudio. Jugar no cambia tu avance en matemáticas.</p></div>
+    </section>
+    <section class="invite wrap" aria-labelledby="invite-title">
+      <div><h2 id="invite-title">Pruébala. Danos tu opinión.</h2><p>Es un piloto: habrá cosas por mejorar.<br>Cuéntanos qué te ayudó y qué te confundió.</p></div>
+      <a class="button primary" href="https://nexora-piloto-seven.vercel.app/registro">Entrar a Nexora <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#" aria-label="Volver al inicio de Nexora"><img src="assets/nexora.svg" width="30" height="30" alt="">NEXORA</a><p>Piloto cerrado · Matemáticas</p><a href="mailto:jorgegonzalezm137@gmail.com">Contactar a Jorge <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>

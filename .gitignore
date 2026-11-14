@@ -1,0 +1,20 @@
+# Herramientas locales y dependencias
+node_modules/
+.hyperframes/
+.thumbnails/
+.waveform-cache/
+.impeccable/*
+!.impeccable/design.json
+.cache/
+verification/
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+# Intermedios de render; el MP4 final en site/assets/ sí se publica.
+video/renders/
+video/*.mp4
+video/*.wav
+.DS_Store
+Thumbs.db

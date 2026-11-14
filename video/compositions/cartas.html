@@ -1,0 +1,12 @@
+<template>
+  <style>#root{position:absolute;inset:0;background:#292f2c;color:#f0f0e9}.cards-title{left:150px;top:280px;max-width:680px}.cards-sub{left:155px;top:570px;color:#c5b4ed;font-size:36px}.cards-stage{left:920px;top:150px;width:850px;height:780px;background:#151718}.cards-stage img{width:1490px}.cards-note{left:155px;top:930px;color:#c1c7c2;max-width:700px}</style>
+  <div id="root" data-composition-id="cartas">
+    <div id="cartas-shot" class="clip" data-start="0" data-duration="6">
+      <h2 class="title cards-title">También<br>hay cartas.</h2>
+      <p class="sub cards-sub" id="cards-sub">Insolitus · contra un bot</p>
+      <div class="stage cards-stage" data-layout-allow-overflow><img id="cards-image" src="assets/insolitus.webp" alt="Colección real de cartas de Insolitus"></div>
+      <p class="note cards-note">Jugar no cambia tu avance<br>en matemáticas.</p>
+    </div>
+  </div>
+  <script>const tl=gsap.timeline({paused:true});tl.fromTo('#cards-image',{x:-320,y:-380},{x:-320,y:-650,duration:1.8,ease:'power2.inOut'},1);tl.fromTo('#cards-sub',{opacity:0},{opacity:1,duration:.3},3.3);window.__timelines.cartas=tl;</script>
+</template>

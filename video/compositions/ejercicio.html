@@ -1,0 +1,12 @@
+<template>
+  <style>#root{position:absolute;inset:0;background:#e7e9e3}.exercise-title{left:150px;top:310px;max-width:680px}.exercise-help{left:155px;top:600px;color:#584178;max-width:650px}.exercise-stage{left:1030px;top:120px;width:665px;height:830px;background:#faf8f3}.exercise-stage img{width:665px}.exercise-note{left:155px;top:925px}</style>
+  <div id="root" data-composition-id="ejercicio">
+    <div id="ejercicio-shot" class="clip" data-start="0" data-duration="8">
+      <h2 class="title exercise-title">Lee y<br>responde.</h2>
+      <p class="sub exercise-help" id="exercise-help">Puedes pedir ayuda.</p>
+      <div class="stage exercise-stage" id="exercise-stage" data-layout-allow-overflow><img id="exercise-image" src="assets/ejercicio.webp" alt="Pregunta real: qué fracción equivale a dos quintos, con opciones y botón Pedir una pista"></div>
+      <p class="note exercise-note">Un concepto. Una pregunta.</p>
+    </div>
+  </div>
+  <script>const tl=gsap.timeline({paused:true});tl.fromTo('#exercise-stage',{scale:.94},{scale:1,duration:.6,ease:'power3.out'},0);tl.fromTo('#exercise-help',{opacity:0},{opacity:1,duration:.3},3.2);tl.fromTo('#exercise-image',{y:0},{y:-20,duration:1.1,ease:'power2.inOut'},5.2);window.__timelines.ejercicio=tl;</script>
+</template>

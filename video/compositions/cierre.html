@@ -1,0 +1,13 @@
+<template>
+  <style>#root{position:absolute;inset:0;background:#c5b4ed;color:#242b27}.end-logo{position:absolute;left:144px;top:130px;width:140px;height:140px}.end-brand{position:absolute;left:310px;top:160px;font-size:65px;font-weight:700;letter-spacing:.04em}.end-title{left:155px;top:395px;max-width:1600px;font-size:112px}.end-sub{left:160px;top:725px;font-size:36px}.end-line{position:absolute;left:160px;top:885px;width:1600px;height:3px;background:#584178;transform-origin:left center}</style>
+  <div id="root" data-composition-id="cierre">
+    <div id="cierre-shot" class="clip" data-start="0" data-duration="6" data-hold>
+      <img id="end-logo" class="end-logo" src="assets/nexora.svg" alt="">
+      <p class="end-brand" id="end-brand">NEXORA</p>
+      <h2 class="title end-title" id="end-title">Entra. Prueba.<br>Cuéntanos.</h2>
+      <p class="sub end-sub" id="end-sub">Piloto cerrado</p>
+      <div class="end-line" id="end-line" aria-hidden="true"></div>
+    </div>
+  </div>
+  <script>const tl=gsap.timeline({paused:true});tl.fromTo('#end-logo',{scale:.6,rotation:-18},{scale:1,rotation:0,duration:.65,ease:'power3.out'},0);tl.fromTo('#end-brand',{opacity:0},{opacity:1,duration:.25},.35);tl.fromTo('#end-line',{scaleX:0},{scaleX:1,duration:.7,ease:'power3.out'},1);window.__timelines.cierre=tl;</script>
+</template>
